@@ -91,4 +91,4 @@ For detailed setup instructions, please refer to the following guides:
 - **Expanded Model Support**: Support for local LLMs like Llama 3 or Mistral for full offline capability.
 
 ---
-*Created for the Final Year Project: Multi-AI Document Analyzer.*
+*The Final Year Project: Multi-AI Document Analyzer.*
