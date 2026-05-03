@@ -1,0 +1,147 @@
+# ==========================================
+# ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+server/.env
+.env.secret
+
+# ==========================================
+# PYTHON - Backend (Server)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+test_token.txt
+test_*.py
+debug_*.py
+
+# Virtual Environments
+server/.venv/
+server/venv/
+venv/
+ENV/
+env/
+.venv
+venv_*/
+.virtualenvs/
+
+# ==========================================
+# NODE.JS / FRONTEND
+# ==========================================
+node_modules/
+Frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Frontend Build
+Frontend/build/
+dist/
+.next/
+
+# ==========================================
+# IDE / EDITOR
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.vim
+.emacs
+.project
+.pydevproject
+.settings/
+.classpath
+
+# ==========================================
+# OS SPECIFIC
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log
+npm-loglevel.txt
+server/logs/
+logs/
+
+# ==========================================
+# DATABASE / STORAGE
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+mongo/
+mongodb/
+server/storage/uploads/
+
+# ==========================================
+# CREDENTIALS & SECRETS
+# ==========================================
+credentials.json
+secret.json
+.credentials
+*_secret*
+*.pem
+*.key
+*.crt
+
+# ==========================================
+# TEMPORARY & CACHE FILES
+# ==========================================
+*.tmp
+*.temp
+*.bak
+.cache/
+*.cache
+*.pot
+
+# ==========================================
+# BUILD OUTPUTS & ARTIFACTS
+# ==========================================
+dist/
+*.whl
+out/

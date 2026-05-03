@@ -1,0 +1,15 @@
+flask
+flask-cors
+python-dotenv
+google-generativeai
+openai
+sentence-transformers
+pymongo
+PyPDF2
+python-docx
+numpy
+requests
+jwt
+transformers
+torch
+sentencepiece
